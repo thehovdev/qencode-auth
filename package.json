@@ -2,7 +2,7 @@
   "name": "qencode-auth",
   "version": "0.1.0",
   "private": true,
-  "packageManager": "pnpm@7.0.1",
+  "packageManager": "npm@10.2.3",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
