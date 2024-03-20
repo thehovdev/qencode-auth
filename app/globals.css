@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'BasisGrotesquePro';
+    font-weight: 700;
+    src: url('/fonts/BasisGrotesquePro-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'BasisGrotesquePro';
+    font-weight: 400;
+    src: url('/fonts/BasisGrotesquePro-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'BasisGrotesquePro';
+    font-weight: 500;
+    src: url('/fonts/BasisGrotesquePro-Medium.ttf') format('truetype');
+}
+
+div, p, h1, h2, h3, h4, h5, h6, a, span, li, ul, ol, button, input, textarea {
+    font-family: 'BasisGrotesquePro', sans-serif;
+}
