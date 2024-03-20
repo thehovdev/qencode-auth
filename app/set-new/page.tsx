@@ -1,7 +1,10 @@
 'use client'
 
 import SetNew from "@/components/pages/SetNew";
+import {Suspense} from "react";
 
 export default function Page() {
-    return <SetNew />
+    return <Suspense>
+                <SetNew />
+            </Suspense>
 }
